@@ -1,0 +1,119 @@
+/*
+   Style article
+*/
+@font-face {
+    font-family: 'bellaniaregular';
+    src: url('fonts/bellania-webfont.woff') format('woff2'),
+         url('fonts/bellania-webfont.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'cheeseburgerregular';
+    src: url('fonts/cheeseburgerregular.woff') format('woff2'),
+         url('fonts/cheesebu-webfont.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+ /*------------------------ Global------------------------*/
+}
+body{
+  text-align: center;
+  font-family:'Noto Sans JP', sans-serif;
+  color: #632B30;
+}
+ /*------------------------ nav------------------------*/
+ .new{ 
+  font-family:'cheeseburgerregular';
+  font-size: 2em;
+} 
+.newsletter{
+  width: 90%;
+}
+/*------------------------ main------------------------*/
+h1, h2{
+  color: #fadf63;
+}
+p {
+  color: #632B30;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+h1 {
+  font-family: bellaniaregular;
+  background-image: url("images/usa.jpg");
+  /* background-repeat: no-repeat; */
+  height: 250px;
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h2 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+h3{
+  text-align: left;
+  font-size: 18px;
+  color: #632B30;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: bolder;
+}
+.illustrationWoman {
+  margin-top: 50px;
+  text-align: center;
+}
+.illustrationWord{
+  margin-top: -2px;
+  text-align: center;
+}
+.illustrationHistoire{
+  text-align: justify;
+}
+.illustrationWord img {
+  margin-top: 5px;
+}
+.subtitleRecette ul,.subtitleRecette li{
+  text-align: left;
+  margin-top: 20px;
+  color: #632B30;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+.subtitleRecette img{
+  margin-top: 80px;
+}
+.subtitleEtape ul,.subtitleEtape li{
+  text-align: left;
+  margin-top: 35px;
+  color: #632B30;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+.subtitleEtape img{
+   /* margin-bottom: 50px; */
+}
+.subtitleEtape{
+  margin-bottom: 80px;
+}
+.intro p{
+  margin-top: 150px;
+  text-align: justify;
+}
+
+.welcome {
+  font-size: 25px;
+}
+/* .voyage{
+  margin: 80px;
+} */
+.voyage p{
+ padding: 30px;
+ background-color: #fadf63;
+margin-bottom: 25px;
+}
+.voyage img {
+  text-align: center;
+  padding: 20px;
+}
+.degustation {
+  margin-top: 80px;
+  font-size: 18px;
+}

@@ -1,0 +1,140 @@
+  /*------------------------ Groupe 6------------------------*/
+  /*Hélèna-Marcella-Sophie--chef de projet:Faiza*/
+  /*Date:15-03-2021*/
+@font-face {
+    font-family: 'cheeseburgerregular';
+    src: url('fonts/cheeseburgerregular.woff') format('woff2'),
+         url('fonts/cheesebu-webfont.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+@font-face {
+    font-family: 'bellaniaregular';
+    src: url('bellania-webfont.woff2') format('woff2'),
+         url('bellania-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+ /*------------------------ Global------------------------*/
+}
+body{
+  margin: 1%;
+    font-family:'Noto Sans JP', sans-serif;
+    color: #632B30;
+}
+ /*------------------------ nav------------------------*/
+.new{
+    font-family:'cheeseburgerregular';
+    font-size: 2em;
+}
+.newsletter{
+    width: 90%;
+}
+/*--------------------main italian cook ----------*/
+.cuisineItalienne
+{
+  background-image: url(images/c.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+}
+.cuisine /*classe spécifique pour différencier des autres p */
+{
+  font-family:'bellania';
+  color: #fadf63;
+  font-size: 4.5em;
+  font-weight: bold;
+}
+
+@media all and (max-width: 600px) /*pour que l'image de bannière reste (à peu près) centrée*/
+{
+  .cuisineItalienne
+  {
+    width: 100%;
+    background-position: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+}
+@media all and (max-width: 800px) /*pour que le texte de bannière reste (à peu près) centrée*/
+{
+  .cuisineItalienne
+  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+
+article
+{
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+.yellowbackground
+{
+  background-color: #fadf63;
+  color: #632B30;
+}
+.chapo
+{
+  font-style: italic; /*le chapô ou introduction est en général en italique*/
+}
+
+h1
+{
+font-size: 28px;
+padding-left: 1%;
+}
+h2
+{
+font-size: 22px;
+padding-left: 1%;
+color: #632B30;
+}
+p, h3, ul, ol
+{
+font-size: 16px;
+color: #632B30;
+}
+
+p, h3 /*marge pour que ce soit plus joli*/
+{
+padding-left: 2%;
+}
+
+ul, ol /*bidouillage pour ça reste bien en petite résolution */
+{
+  padding-left: 5%;
+}
+
+ol /*marge en bas pour que ce soit plus joli*/
+{
+  padding-bottom: 1%;
+}
+.images /*pour le display flex*/
+{
+display: flex;
+justify-content: space-around;
+}
+img /*pour régler la taille des images*/
+{
+  height: 30%;
+  width: 30%;
+}
+/*------------------------ footer------------------------*/
+footer{
+   margin-top:80px;
+}

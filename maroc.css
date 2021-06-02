@@ -1,0 +1,93 @@
+/*------------------------ Groupe 6------------------------*/
+  /*Hélèna-Marcela-Sophie--chef de projet:Faiza*/
+  /*Date:15-03-2021*/
+/*--------------------Fonts----------------------------*/
+  @font-face {
+    font-family: 'cheeseburgerregular';
+    src: url('fonts/cheesebu-webfont.woff') format('woff2'),
+         url('fonts/cheesebu-webfont.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+    @font-face {
+        font-family: 'bellaniaregular';
+        src: url('fonts/bellania-webfont.woff') format('woff2'),
+             url('fonts/bellania-webfont.woff2') format('woff');
+        font-weight: normal;
+        font-style: normal;
+    
+    }
+ /*------------------------ Global------------------------*/
+}
+body{
+    margin: 0;
+    padding: 20px;
+    font-family:'Noto Sans JP', sans-serif;
+    color: #632B30;
+}
+ /*------------------------ nav------------------------*/
+.new{ 
+    font-family:'cheeseburgerregular';
+    font-size: 2em;
+} 
+.newsletter{
+    width: 90%;
+}
+/*------------------------ footer------------------------*/
+footer{
+    margin-top:80px;
+    color: #632B30;
+}
+
+/*CSS MAROC*/
+/*----------------------------Banner-----------------------------*/
+.main_title{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('images/banner.jpg');
+    background-color: #E6AF2E;
+    height: 250px;
+    padding: 15px;
+}
+h1{
+    margin-left: 2%;
+    margin-top: 120px;
+    font-family:'bellaniaregular', sans-serif;
+    font-size: 6rem;
+    color: #FADF63;
+    text-align: center;
+}
+/*--------------------Intro-------------------------------------*/
+h2{
+    color: #632B30;
+    background-color: #FADF63;
+}
+.marché{
+    margin-bottom: 20px;
+}
+.start{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.start--{
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+    margin-bottom: 15px;
+    line-height: 1.8;
+    
+    color: #632B30;
+}
+/*--------------------------Main----------------------------------*/
+article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #632B30;
+}
+.recette_orient p{
+    margin-top: 20px;
+}
+

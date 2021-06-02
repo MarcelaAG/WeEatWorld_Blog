@@ -1,0 +1,97 @@
+/*------------------------ Groupe 6------------------------*/
+  /*Hélèna-Marcela-Sophie--chef de projet:Faiza*/
+  /*Date:15-03-2021*/
+
+  @font-face {
+    font-family: 'cheeseburgerregular';
+    src: url('fonts/cheesebu-webfont.woff') format('woff2'),
+         url('fonts/cheesebu-webfont.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+    @font-face {
+        font-family: 'bellania';
+        src: url('fonts/bellania-webfont.woff') format('woff2'),
+             url('fonts/bellania-webfont.woff2') format('woff');
+        font-weight: normal;
+        font-style: normal;
+    
+    }  
+ /*------------------------ Global------------------------*/
+body{
+    margin: 0;
+    padding: 20px;
+    font-family:'Noto Sans JP', sans-serif;
+    color: #632B30;
+}
+ /*------------------------ nav------------------------*/
+.new{ 
+    font-family:'cheeseburgerregular';
+    font-size: 2em;
+} 
+.newsletter{
+    width: 90%;
+}
+/*------------------------ footer------------------------*/
+footer{
+    margin-top:80px;
+}
+
+
+
+/*------------------Asie CSS------------------------------*/
+.main_title{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("images/banner2.jpg");
+    background-color: #E6AF2E;
+    height: 250px;
+    padding: 15px;
+}
+h1{
+ margin-left: 2%;
+ margin-top: 90px;
+ font-family:'bellania', sans-serif;
+ font-size: 6rem;
+ color: #FADF63;
+ text-align: center;
+}
+h2{
+    color: #632B30;
+    text-align: center;
+    background-color: #FADF63;
+}
+.intro--{
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+    line-height: 1.8;
+    color: #632B30;
+}
+article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.picnic{
+margin-top: 30px;
+margin-bottom: 15px;
+}
+
+p{
+    margin-top: 10px;
+    width: 100%;
+    letter-spacing: 1px;
+    color: #632B30;
+ 
+}
+.sakuras{
+    text-align: center;
+}
+.sakuras--{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
